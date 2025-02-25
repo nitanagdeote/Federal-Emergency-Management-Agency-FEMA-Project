@@ -21,3 +21,7 @@ https://raw.githubusercontent.com/nitanagdeote/Federal-Emergency-Management-Agen
 2. Select visualization type from the dropdown
 3. Filter by year if needed
 4. Hover over chart elements to see detailed information
+
+## Visualization is available at GitHub Pages
+
+https://nitanagdeote.github.io/Federal-Emergency-Management-Agency-FEMA-Project/
