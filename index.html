@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FEMA Disaster Data Visualization</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>FEMA Disaster Data Visualization</h1>
+    <div class="controls">
+      <div class="control-group">
+        <label for="visualization-type">Visualization Type:</label>
+        <select id="visualization-type">
+          <option value="bar">Disasters by State</option>
+          <option value="line">Disasters Over Time</option>
+          <option value="pie">Disaster Types Distribution</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="year-filter">Filter by Year:</label>
+        <select id="year-filter">
+          <option value="all">All Years</option>
+        </select>
+      </div>
+    </div>
+    <div id="visualization"></div>
+    <div id="tooltip" class="tooltip"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
